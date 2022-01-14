@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Practicum_Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body onload="main()">
+    <script src="index.js"></script>
+    <div class="left">
+        <div class="schedule">
+            <div style="display: flex; justify-content: center; margin-top: 50px; align-items: center;">
+                <h1 style="text-decoration: underline;">Schedule</h1>
+                <button class="btn btn-add" onclick="addSchedule()">+</button>
+            </div>
+        </div>
+        
+        <div id="list">
+        </div>
+    </div>
+    
+    <div class="right">
+        <div class="content">
+            <h1 style="font-size: 40px; font-weight:bold;" id="activity">TIMER</h1>
+            <h1 id ="timer" style="font-size: 72px; font-weight: 100;">00:00:00</h1>
+            <div class="buttons">
+                <button class="btn btn-pause" value="0" onclick="pause(this)" state="0" id="pause">Pause</button>
+                <button class="btn btn-skip" value="0" onclick="skip()" id="skip">Skip</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="popup" class="popup content hide">
+        <button class="btn btn-close" onclick="closee()">Close</button>
+        <h1 style="margin: 0px; margin-bottom: 10px;">Add/Edit schedule</h1>
+        <input type="text" id="activityname" class="input" style="width: 250px" placeholder="Activities"><br><br>
+        <input type="number" min="0" id="hours" class="input" placeholder="Hours">
+        <input type="number" min="0" id="minutes" class="input" placeholder="Minutes">
+        <input type="number" min="0" id="seconds" class="input" placeholder="Seconds"><br>
+        <button class="btn btn-confirm" onclick="closePopup()" style="margin: 20px;">Confirm</button>
+    </div>
+
+
+</body>
+</html>

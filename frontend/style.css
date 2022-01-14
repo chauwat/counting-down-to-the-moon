@@ -1,0 +1,188 @@
+.content {
+    margin: 0;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+body {
+    font-family:Verdana;
+    display: flex;
+    height: 100vh;
+    margin: 0;
+}
+
+.left {
+    border-right: 2px solid #dddddd;
+    width: 30%;
+}
+
+.right {
+    width: 70%;
+}
+
+/* ===============
+    Button Class 
+==================*/
+
+.btn {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.btn:active{
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.btn-pause{
+    background-color: #c94141;
+}
+  
+.btn-pause:hover{
+    background-color: #ce2323
+}
+  
+.btn-pause:active{
+    background-color: #ce2323;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.btn-skip{
+    background-color: #353a35;
+    margin-left: 40px;
+}
+  
+.btn-skip:hover{
+    background-color: #0a0a0a
+}
+  
+.btn-skip:active{
+    background-color: #0a0a0a;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.btn-skip:disabled {
+    opacity: 0.3;
+}
+
+.btn-confirm{
+    background-color: #7f76b4;
+}
+  
+.btn-confirm:hover{
+    background-color: #5a4bb3;
+}
+  
+.btn-confirm:active{
+    background-color: #5a4bb3;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.input {
+    width: 150px;
+    height: 25px;
+}
+
+.popup{
+    position: absolute;
+    background-color: aquamarine;
+    border: 2px solid #0a0a0a;
+    padding: 20px;
+    box-shadow: rgb(66, 66, 66) 5px 5px;
+}
+
+.hide{
+    display: none;
+}
+
+.btn-add{
+    border-radius: 50%;
+    background-color: #dbd46a;
+    margin-left: 20px;
+    height: 55px;
+    width: 55px;
+    padding: 0;
+}
+  
+.btn-add:hover{
+    background-color: #eee133;
+}
+  
+.btn-add:active{
+    background-color: #eee133;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.list{
+    display: flex;
+    margin: 20px;
+    padding: 18px 10px;
+    border: 1px solid grey;
+}
+
+.list-left{
+    width:100%;
+}
+
+.list-right{
+    display: flex;
+    width:120px;
+    align-items: center;
+}
+
+.btn-edit{
+    font-size: 20px;
+    background-color: #929292;
+    padding : 7px 15px;
+    border-radius: 10px;
+    box-shadow: 0 9px rgb(63, 63, 63);
+}
+  
+.btn-edit:hover{
+    background-color: #696969
+}
+  
+.btn-edit:active{
+    background-color: #696969;
+    transform: translateY(4px);
+}
+
+.btn-delete{
+    font-size: 20px;
+    background-color: #e21919;
+    padding : 7px 15px;
+    border-radius: 10px;
+    box-shadow: 0 9px rgb(63, 63, 63);
+    margin-left: 5px;
+}
+
+.btn-close{
+    border: 0.1px solid black;
+    background-color: #ce2323;
+    right : 25px;
+    position: absolute;
+    font-size : 15px;
+    padding : 2.5px 5px;
+}
