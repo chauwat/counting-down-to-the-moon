@@ -41,6 +41,7 @@ Counting down to the moon
 - usbdrv
 - Adafruit_SSD1306 ( for oled )
 
+By Chauwat , Mollarath , Tharinrath and Burapa
 --------------------------------------
 
 _Since March 26 2021_
