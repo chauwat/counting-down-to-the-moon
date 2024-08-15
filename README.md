@@ -41,6 +41,11 @@ Counting down to the moon
 - usbdrv
 - Adafruit_SSD1306 ( for oled )
 
+**Picture**
+![MCU Alarm Device](./assets/mcu_alarm_device.jpg)
+
+![Web Interface](./assets/web_interface.png)
+
 By Chauwat , Mollarath , Tharinrath and Burapa
 --------------------------------------
 
